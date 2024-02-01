@@ -1,0 +1,81 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+        background-color: hsl(0, 0%, 8%)
+    }
+
+    html {
+        font-size: 16px;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 12%);
+        height: 32rem;
+        max-width: 20rem;
+        border-radius: 2.1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 6em auto;
+        padding-bottom: 1em;
+    }
+
+    img {
+        border-radius: 50%;
+        height: 5rem;
+        margin: 0 auto 0 auto;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        color: hsl(0, 0%, 100%);
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+        margin-top: 0;
+        color: hsl(75, 94%, 57%);
+        font-family: 'Inter', sans-serif;
+    }
+
+    .attributes > p {
+        color:  hsl(0, 0%, 100%);
+        font-family: 'Inter', sans-serif;
+        padding-top: 1em;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .link {
+        background-color: hsl(0, 0%, 20%);
+        height: 2em;
+        width: 17em;
+        border-radius: 0.4em;
+        padding-bottom: 0.5em;
+    }
+
+    .Social-media {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8em;
+        align-items: center;
+    }
+
+    .Social-media p {
+        font-family: 'Inter', sans-serif;
+        color: hsl(0, 0%, 100%);
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .attributes {
+        text-align: center;
+    }
+
+    .link:hover {
+        background-color: hsl(0, 0%, 8%);
+    }
+    
